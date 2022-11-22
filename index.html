@@ -17,60 +17,62 @@
     <body>      
         <div class="container">
             <div id="header" class="centrar">
-                <img id="Espe_img" class="" src="img/logo_ESPE.png" style="margin-top:30px;width:400px;height:89px;">
+                <img id="Espe_img" class="" src="img/logo_ESPE.png" style="margin-top:30px;width:400px;height:89px; box-sizing: border-box; ">
             </div>
             <br>
-            <nav class="navbar navbar-inverse">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button class="navbar-toggle" data-toggle="collapse" data-target="#ejemplo-5">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a href="#" class="navbar-brand">Grupo 2</a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="ejemplo-5">
-                        <ul class="nav navbar-nav centrar">
-                            <li><a href="#">Docente</a></li>
-                            <li><a href="#">Comandante</a></li>
+                <nav class="navbar navbar-default" style="border: 10px solid black; border-radius: 10px;">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button class="navbar-toggle" data-toggle="collapse" data-target="#ejemplo-5">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="#" class="navbar-brand">Grupo 2</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="ejemplo-5">
+                            <ul class="nav navbar-nav centrar">
+                                <li><a href="#">Docente</a></li>
+                                <li><a href="#">Comandante</a></li>
 
-                            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Grupos<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Grupo 1</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">Grupo 2</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">Grupo 3</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">Grupo 4</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">Grupo 5</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">Grupo 6</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">Grupo 7</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">Grupo 8</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <form class="navbar-form navbar-left centrar">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Buscar">
-                            </div>
-                            <boton class="btn btn-primary">Buscar</boton>
-                        </form>
+                                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Grupos<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="disabled"><a href="#">Grupo 1</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="tabla.html">Grupo 2</a></li>
+                                        <li class="divider"></li>
+                                        <li class="disabled"><a href="#">Grupo 3</a></li>
+                                        <li class="divider"></li>
+                                        <li class="disabled"><a href="#">Grupo 4</a></li>
+                                        <li class="divider"></li>
+                                        <li class="disabled"><a href="#">Grupo 5</a></li>
+                                        <li class="divider"></li>
+                                        <li class="disabled"><a href="#">Grupo 6</a></li>
+                                        <li class="divider"></li>
+                                        <li class="disabled"><a href="#">Grupo 7</a></li>
+                                        <li class="divider"></li>
+                                        <li class="disabled"><a href="#">Grupo 8</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="navbar-form navbar-left centrar">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Buscar">
+                                </div>
+                                <boton class="btn btn-primary">Buscar</boton>
+                            </form>
+                        </div>
                     </div>
-                </div>
-            </nav>
-
+                </nav>
             <div class="row">
                 <div class="col-xs-12 col-sm-3">
                     <div id="leftMenu">
-                        <a href="FormLogin.html" class="Boton fondo"><span class="glyphicon glyphicon-user"></span> Login</a>
-                        <a href="FormLogin.html" class="Boton fondo"><span class="glyphicon glyphicon-hdd"></span> Registro</a>
-                        <a href="FormLogin.html" class="Boton fondo"><span class="glyphicon glyphicon-book"></span> Producto</a>                     
+                        <div class="container alinCont" style="width: 100%; height:100%; box-sizing: border-box; ">
+                                <button class="btn btn-default btn-lg caja12"><span class="glyphicon glyphicon-user">  </span>Login</button>
+                                <button class="btn btn-default btn-lg caja12"><span class="glyphicon glyphicon-hdd">  </span>Registro</button>
+                                <button class="btn btn-default btn-lg caja12"><span class="glyphicon glyphicon-book">  </span>Producto</button>
+                                <button class="btn btn-default btn-lg caja12" onclick="document.location='FormLogin.html'">  <span class="glyphicon glyphicon-user"></span>Formulario</button> 
+                        </div>                
                     </div>                  
                 </div>
 

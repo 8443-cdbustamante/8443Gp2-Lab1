@@ -148,12 +148,11 @@ body{
   float: left;
   background:inherit;
   background-color: rgba(255, 255, 255);
-  box-sizing:border-box;
   border-width:5px;
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:10px;
-  padding-top: 30px;
+  padding-top: 5px;
   margin-bottom: 5px;
  }
 
@@ -199,6 +198,26 @@ a:link, a:visited, a:active {
 
 .titulo{
   color:white;
+}
+
+.caja12{
+  background-color: none;
+  border: 5px solid black;
+  color: black;
+  padding: 15px auto;
+  text-align: center;
+  display: flex;
+  font-size: 16px;
+  margin-top: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  width: auto;
+}
+
+.alinCont{
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* rigthMenu */
