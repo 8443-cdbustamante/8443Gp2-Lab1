@@ -5,6 +5,10 @@ body, html {
     font-family: oblique;  
 }
 
+*{
+    scroll-behavior: smooth;
+}
+
 .inicio {
     background: url("../img/fondo.JPEG");
     background-size: cover;
@@ -37,4 +41,9 @@ a .fab {
 
 .font-weight-bold {
     font-weight: 325!important;
+}
+
+.margen{
+    margin: auto;
+    background-color: #E1E1E1;
 }
